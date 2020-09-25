@@ -1,0 +1,31 @@
+input:focus {
+
+border: 2px solid rgb(78, 187, 181);
+
+}
+
+input::placeholder {
+    color: red;
+    text-align: right;
+    color: #8a97a0;
+    font-style: italic;
+    padding-right: 10px;
+    
+    }
+
+
+
+    input[type="radio"], input[type="checkbox"] {
+        margin: 0 4px 20px 0;
+    }
+    input[type="checkbox"], input[type="radio"] {
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+   
+
+  
+
+   
+
