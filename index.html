@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/basestyle.css">
-    <link rel="stylesheet" href="css/advancedstyle.css">
+	<link rel="stylesheet" href="css/basestyle.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
     <link rel="stylesheet" href="../Treehouse-Project-2/css/normalize.css">
     <title>Form</title>
 </head>
@@ -23,12 +24,12 @@
 	
 <div class="flex-pair">
 <label for="name">Full Name</label>
-<input type="text" class="inputfield"  id="name" name="user_name" placeholder="Required"><br>
+<input type="text" class="inputfield" required  id="name" name="user_name" placeholder="Required"><br>
 </div>
 
 <div class="flex-pair">
 <label for="E-mail">E-mail Address</label>
-<input type="email" class="inputfield" id="E-mail" name="user_E-mail" placeholder="Required"><br>
+<input type="email" class="inputfield" required id="E-mail" name="user_E-mail" placeholder="Required"><br>
 </div>
 
 <div class="flex-pair">
@@ -130,7 +131,7 @@
 <input type="radio"   id="text" value="interest_Text_News" name="newsletter_format"> <label for="text" class="inln">Plain Text</label><br>
 
 
-<label >Other topics you'd like to hear about</label><br>
+<label for="feedback">Other topics you'd like to hear about</label><br>
 <textarea name="user_feedback" class="inputfield" id="feedback" cols="30" rows="10"></textarea>
 <button class="btn" type="submit">Sign Up</button>
 </fieldset>
